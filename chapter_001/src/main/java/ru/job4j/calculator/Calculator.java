@@ -1,26 +1,51 @@
 package ru.job4j.calculator;
 
+/**
+ * Калькулятор.
+ *  @author Sergey Sachavichka (sachavichka@gmail.com).
+ */
+
 public class Calculator {
 private double result;
 
-public void add(double first, double second) {
-this.result = first + second;
-}
+    /**
+     *
+     * @param first
+     * @param second
+     */
 
-public void subtract(double first, double second){
-this.result = first - second;
-}
+    /**
+     *
+     * @сложение
+     */
+    public void add(double first, double second) { this.result = first + second; }
 
-public void div(double first, double second){
-this.result = first / second;
-}
+    /**
+     *
+     * @деление
+     */
+public void div(double first, double second){ this.result = first / second; }
 
-public void multiple(double first, double second){
-this.result = first * second;
-}
+    /**
+     *
+     * @вычитание
+     *
+     */
 
-public double getResult() {
-return this.result;
-}
+public void substract(double first, double second){ this.result = first - second; }
+
+    /**
+     *
+     * @умножение
+     */
+
+public void multiple(double first, double second){ this.result = first * second; }
+
+    /**
+     * 
+     * @return
+     */
+
+public double getResult() { return this.result; }
 
 }
