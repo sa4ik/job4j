@@ -39,7 +39,7 @@ public class CalculatorTest  {
 	@Test
     public void whenSubstractTwoMinusTwoThenZero()  {
         Calculator calc = new Calculator();
-        calc.add(2D, 2D);
+        calc.substract(2D, 2D);
         double result = calc.getResult();
         double expected = 0D;
         assertThat(result, is(expected));
@@ -48,7 +48,7 @@ public class CalculatorTest  {
 	@Test
     public void whenMultipleTwoMultipleTwoThenFour()  {
         Calculator calc = new Calculator();
-        calc.add(2D, 2D);
+        calc.multiple(2D, 2D);
         double result = calc.getResult();
         double expected = 4D;
         assertThat(result, is(expected));
