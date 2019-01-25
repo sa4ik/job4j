@@ -15,7 +15,7 @@ import static org.junit.Assert.assertThat;
 		DummyBot bot = new DummyBot();
 		assertThat(
 		        bot.answer("Привет, Бот."),
-				is("Привет, Умник.")
+				is("Привет, Умник")
 		);
 	}
 		
@@ -23,8 +23,8 @@ import static org.junit.Assert.assertThat;
 	public void whenByuBot() {
 		DummyBot bot = new DummyBot();
 		assertThat(
-				bot.answer("Пока."),
-				is("До скорой встречи.")
+				bot.answer("Пока"),
+				is("До скорой встречи")
 		);
 	}
 	

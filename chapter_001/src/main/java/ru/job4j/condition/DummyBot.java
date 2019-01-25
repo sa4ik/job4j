@@ -5,7 +5,7 @@ package ru.job4j.condition;
  *@version $Id$
  *@since 0.1
  */
- public class DummyBot {
+public class DummyBot {
  /**
   * Отвечает на вопросы.
   * @param question Вопрос от клиента.
