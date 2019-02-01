@@ -14,12 +14,14 @@ package ru.job4j.loop;
   */
   
   public int add(int start, int finish) {
+  	int sum = 0;
 	  
-	  for (start = 1; start <= 10; start++) {
+	  for (; start<=finish; start++) {
 		  if (start % 2 == 0)
-			  finish += start;
+			  sum += start;
+
 	  }
-	  return finish;
+	  return sum;
   }
 	 
 	 
