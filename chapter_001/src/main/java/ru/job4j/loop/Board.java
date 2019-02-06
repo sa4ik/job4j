@@ -10,8 +10,8 @@ package ru.job4j.loop;
 	 public String paint(int widht, int height) {
 		 StringBuilder screen = new StringBuilder();
 		 String ln = System.lineSeparator();
-		 for (int w = 0; w < widht; w++) {
-			 for (int h = 0; h < height; h++) {
+		 for (int h = 0; h < height; h++) {
+			 for (int w = 0; w < widht; w++) {
 				 if ((w+h)%2==0) {
 					 screen.append("x");
 				 } else {
